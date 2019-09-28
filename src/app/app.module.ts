@@ -13,7 +13,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { config } from 'rxjs';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyxxxxxxxxxxxxxxxxxxxxxxx3oS9gemdN4", //hidden for obv reasons
+  apiKey: "AIzaSyxxxxxxxxxxxxxxxxxxxxxxx3oS9gemdN4", //hidden for obvious reasons
   authDomain: "firebasics1-744a7.firebaseapp.com",
   databaseURL: "https://firebasics1-744a7.firebaseio.com",
   projectId: "firebasics1-744a7",
