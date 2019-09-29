@@ -28,7 +28,7 @@ const firebaseConfig = {
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(firebaseConfig), //updated
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
