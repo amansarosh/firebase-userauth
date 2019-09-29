@@ -13,7 +13,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { config } from 'rxjs';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyxxxxxxxxxxxxxxxxxxxxu3M3oS9gemdN4",
+  apiKey: "AIzaSyAiiW6xpPXA0Vb6KcD_6lu3M3oS9gemdN4",
   authDomain: "firebasics1-744a7.firebaseapp.com",
   databaseURL: "https://firebasics1-744a7.firebaseio.com",
   projectId: "firebasics1-744a7",
@@ -28,7 +28,7 @@ const firebaseConfig = {
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(firebaseConfig), //updated
+    AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,

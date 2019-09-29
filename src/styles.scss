@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-.content {
+pre {
+  text-align: left;
+}
+
+body {
   display: flex;
-  padding: 10vh 10vw;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-pre {
-  text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
