@@ -11,6 +11,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { config } from 'rxjs';
+import { SuperSecretComponent } from './super-secret/super-secret.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material';
 
 const firebaseConfig = {
   apiKey: "xxx",
@@ -23,7 +26,7 @@ const firebaseConfig = {
   measurementId: "G-6T3Z41CGPE"
 };
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, SuperSecretComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -32,7 +35,9 @@ const firebaseConfig = {
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

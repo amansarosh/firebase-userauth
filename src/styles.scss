@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
 pre {
   text-align: center;
 }
@@ -8,5 +10,5 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
