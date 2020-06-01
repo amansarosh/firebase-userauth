@@ -37,7 +37,7 @@ const firebaseConfig = {
     AngularFireStorageModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
